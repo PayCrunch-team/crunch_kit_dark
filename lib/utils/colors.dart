@@ -1,44 +1,38 @@
 import 'dart:ui';
 
 class CrunchColors {
-  static const payCrunchBlue = Color(0xff007bff);
-  static const superLightBlue = Color(0xff8ec3ff);
-  static const lightBlue = Color(0xff56a5fa);
-  static const darkBlue = Color(0xff0150C5);
+  /// Primary - Blue
+  static const primary1 = Color(0xff007bff);
+  static const primary2 = Color(0xff003e80);
 
-  static const goldCoin = Color(0xffffd700);
-  static const greenMoney = Color(0xff00da73);
-  static const referralPurple = Color(0xff6200ea);
-  static const dimeRed = Color(0xffd50000);
-  static const shitBrown = Color(0xff795548);
-  static const iceCyan = Color(0xff18ffff);
-  static const darkCyan = Color(0xff033333);
+  /// White (progressively darker)
+  static const white1 = Color(0xe6ffffff);
+  static const white2 = Color(0xccffffff);
+  static const white3 = Color(0xbfffffff);
+  static const white4 = Color(0x99ffffff);
+  static const white5 = Color(0x73ffffff);
+  static const white6 = Color(0x59ffffff);
+  static const white7 = Color(0x40ffffff);
+  static const white8 = Color(0x26ffffff);
 
-  static const accentYellow = Color(0xffffab00);
-  static const accentGreen = Color(0xff00bfa5);
-  static const accentPurple = Color(0xffba68c8);
-  static const accentPink = Color(0xfff06292);
-  static const accentOrange = Color(0xffff8a65);
+  /// Black (progressively lighter)
+  static const black1 = Color(0xff0d0d0d);
+  static const black2 = Color(0xff121212);
+  static const black3 = Color(0xff202020);
+  static const black4 = Color(0xff2e2e2e);
 
-  static const superLightYellow = Color(0xfffff0d4);
-  static const superLightGreen = Color(0xffddf5de);
-  static const superLightPurple = Color(0xfff8eaff);
-  static const superLightOrange = Color(0xffffe6dd);
-  static const superLightCyan = Color(0xffe0ffff);
+  /// Notify - Yellow (progressively darker)
+  static const notify1 = Color(0xffffc700);
+  static const notify2 = Color(0xffbd9a1e);
+  static const notify3 = Color(0x33bd9a1e);
 
-  static const almostWhite = Color(0xfffafafa);
-  static const superLightWhite = Color(0xfff5f5f5);
-  static const superLightGrey = Color(0xffeeeeee);
-  static const silver = Color(0xffc0c0c0);
-  static const grey = Color(0xff8c8c8c);
-  static const darkGrey = Color(0xFF616161);
-  static const superDarkGrey = Color(0xff333431);
-  static const almostBlack = Color(0xff212121);
-  static const black = Color(0xff111111);
+  /// Error - Red (progressively darker)
+  static const error1 = Color(0xffee4c42);
+  static const error2 = Color(0xffbe3d35);
+  static const error3 = Color(0x26ee4c42);
 
-  static const errorRed = Color(0xfffa5a5a);
-  static const successGreen = Color(0xFF43A047);
-  static var superLightRed = const Color(0xFFFA5A5A).withOpacity(0.15);
-  static const superDarkRed = Color(0xFFC62828);
-  static const infoYello = Color(0xFFFFC107);
+  /// Success - Green (progressively darker)
+  static const success1 = Color(0xff3cbc57);
+  static const success2 = Color(0xff309646);
+  static const success3 = Color(0x333cbc57);
 }
