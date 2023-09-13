@@ -29,119 +29,72 @@ class CrunchText extends StatelessWidget {
 }
 
 class CrunchTextStyles {
-  static final tileTitleBlack = TextStyle(
-    color: CrunchColors.almostBlack,
-    fontSize: 14.sp,
-    fontWeight: FontWeight.w600,
-  );
-
-  static final tileTitleWhite = TextStyle(
-    color: CrunchColors.almostWhite,
-    fontSize: 14.sp,
-    fontWeight: FontWeight.w600,
-  );
-
-  static final titleBlack = TextStyle(
-    color: CrunchColors.almostBlack,
-    fontSize: 16.sp,
+  /// Labels
+  static const labelLarge = TextStyle(
+    color: CrunchColors.white1,
     fontWeight: FontWeight.w700,
+    fontSize: 12,
+
+    /// Height in Flutter works as a mulitplier to the fontSize,
+    /// so for height 18, we have 18 / 12 as the height value
+    height: 18 / 12,
   );
 
-  static final titleWhite = TextStyle(
-    color: CrunchColors.almostWhite,
-    fontSize: 16.sp,
+  static const labelMedium = TextStyle(
+    color: CrunchColors.white1,
     fontWeight: FontWeight.w700,
+    fontSize: 12,
+    height: 16 / 12,
   );
 
-  static final titleBlue = TextStyle(
-    color: CrunchColors.payCrunchBlue,
-    fontSize: 16.sp,
+  static const labelSmall = TextStyle(
+    color: CrunchColors.white1,
     fontWeight: FontWeight.w700,
+    fontSize: 11,
+    height: 15 / 11,
   );
 
-  static final titleGrey = TextStyle(
-    color: CrunchColors.darkGrey,
-    fontSize: 16.sp,
-    fontWeight: FontWeight.w700,
-  );
-
-  static final subTitleWhite = TextStyle(
-    color: CrunchColors.almostWhite,
-    fontSize: 12.sp,
+  /// Body
+  static const bodyLarge = TextStyle(
+    color: CrunchColors.white1,
     fontWeight: FontWeight.w500,
+    fontSize: 16,
+    height: 22 / 16,
   );
 
-  static final subTitleGrey = TextStyle(
-    color: CrunchColors.darkGrey,
-    fontSize: 12.sp,
+  static const bodyMedium = TextStyle(
+    color: CrunchColors.white1,
     fontWeight: FontWeight.w500,
+    fontSize: 14,
+    height: 19 / 14,
   );
 
-  static final subTitleRed = TextStyle(
-    color: CrunchColors.superDarkRed,
-    fontSize: 12.sp,
+  static const bodySmall = TextStyle(
+    color: CrunchColors.white1,
     fontWeight: FontWeight.w500,
+    fontSize: 12,
+    height: 16 / 12,
   );
 
-  static final subTitleSilver = TextStyle(
-    color: CrunchColors.silver,
-    fontSize: 12.sp,
+  /// Title
+  static const titleLarge = TextStyle(
+    color: CrunchColors.white1,
     fontWeight: FontWeight.w500,
+    fontSize: 22,
+    height: 31 / 22,
   );
 
-  static final subHeadingGrey = TextStyle(
-    color: CrunchColors.darkGrey,
-    fontSize: 10.sp,
-    fontWeight: FontWeight.w800,
-  );
-
-  static final headingWhite = TextStyle(
-    color: CrunchColors.almostWhite,
-    fontSize: 28.sp,
-    fontWeight: FontWeight.w800,
-  );
-
-  static final headingBlack = TextStyle(
-    color: CrunchColors.almostBlack,
-    fontSize: 28.sp,
-    fontWeight: FontWeight.w800,
-  );
-
-  static final headingExtendedWhite = TextStyle(
-    color: CrunchColors.almostWhite,
-    fontFamily: 'MonumentExtended',
-    fontSize: 26.sp,
+  static const titleMedium = TextStyle(
+    color: CrunchColors.white1,
     fontWeight: FontWeight.w500,
+    fontSize: 16,
+    height: 22 / 16,
   );
 
-  static final headingExtendedBlack = TextStyle(
-    color: CrunchColors.almostBlack,
-    fontFamily: 'MonumentExtended',
-    fontSize: 26.sp,
+  static const titleSmall = TextStyle(
+    color: CrunchColors.white1,
     fontWeight: FontWeight.w500,
-  );
-
-  static final primaryButton = TextStyle(
-    color: CrunchColors.almostWhite,
-    fontSize: 12.sp,
-    fontWeight: FontWeight.w600,
-  );
-
-  static final secondaryButton = TextStyle(
-    color: CrunchColors.payCrunchBlue,
-    fontSize: 12.sp,
-    fontWeight: FontWeight.w600,
-  );
-
-  static final secondaryButtonBlack = TextStyle(
-    color: CrunchColors.almostBlack,
-    fontSize: 12.sp,
-    fontWeight: FontWeight.w600,
-  );
-
-  static final iconButton = TextStyle(
-    color: CrunchColors.payCrunchBlue,
-    fontSize: 10.sp,
-    fontWeight: FontWeight.w500,
+    fontSize: 14,
+    height: 19 / 14,
   );
 }
